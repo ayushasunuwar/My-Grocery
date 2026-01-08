@@ -1,6 +1,7 @@
 import Category from "../Category/Category"
 import Navbar from "../Navbar/Navbar"
 import Hero from "../Hero/Hero"
+import Values from "../Values/Values"
 
 
 const Home = () => {
@@ -9,6 +10,7 @@ const Home = () => {
         <Navbar/>
         <Hero/>
         <Category />
+        <Values/>
     </div>
   )
 }
