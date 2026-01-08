@@ -9,7 +9,8 @@ const Category = () => {
   const renderCards = (category.map(card => {
     return (
       // Cards
-      <div className="flex-1">
+      <div className="flex-1 basis-[300px]" key={card.id}>
+
         {/* Image Content */}
         <div className="w-full min-h-[30vh] relative -mb-10">
           <img src={card.image} alt="" className="absolute bottom-0"/>
@@ -21,6 +22,7 @@ const Category = () => {
           <p className="text-zinc-600 mt-3 mb-9">{card.description}</p>
           <Button content="Show All"/>
         </div>
+        
       </div>
     )
   }))
@@ -31,7 +33,7 @@ const Category = () => {
             <Heading highlight="Shop" heading="by Category" />
 
             {/* Category Cards  */}
-            <div className="flex gap-10 mt-15">
+            <div className="flex flex-wrap gap-10 md:mt-15">
               {renderCards}
             </div>
         </div>
