@@ -5,10 +5,13 @@ import Cards from "../Cards/Cards";
 import Button from "../Button/Button";
 
 const Products = () => {
-  const categories = ['All', 'Fruits', 'Vegetables', 'Dairy', 'Seafood'];
+  const categories = ['All', 'Fruits', 'Vegetables', 'Dairy', 'Meat', 'Seafood'];
   const [activeTab, setActiveTab] = useState('All');
 
-  const renderCards = ProductList.slice(0, 8).map(product => {
+  let filteredItems = activeTab === 'All'
+  ? ProductList : ProductList.filter(item => item.category === activeTab);
+
+  const renderCards = filteredItems.slice(0, 8).map(product => {
     return(
       <Cards image={product.image} name={product.name} price={product.price}/>
     )
