@@ -10,7 +10,8 @@ const Products = () => {
     "Fruits",
     "Vegetables",
     "Dairy",
-    "Meat and Seafood",
+    "Meat",
+    "Seafood"
   ];
   const [activeTab, setActiveTab] = useState("All");
 
@@ -19,7 +20,7 @@ const Products = () => {
 
   const renderCards = filteredItems.slice(0, 8).map((product) => {
     return (
-      <Cards image={product.image} name={product.name} price={product.price} />
+      <Cards key={product.id} image={product.image} name={product.name} price={product.price} />
     );
   });
 
