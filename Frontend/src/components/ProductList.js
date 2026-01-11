@@ -37,7 +37,7 @@ const ProductList = [
         name: 'Beef',
         price: 20,
         image: Beef,
-        category: "Meat",
+        category: "Meat and Seafood",
     },
     {
         id: 3,
@@ -79,7 +79,7 @@ const ProductList = [
         name: 'ChickenBreast',
         price: 20,
         image: ChickenBreast,
-        category: "Meat",
+        category: "Meat and Seafood",
     },
     {
         id: 9,
@@ -156,14 +156,14 @@ const ProductList = [
         name: 'Salmon',
         price: 20,
         image: Salmon,
-        category: "Seafood",
+        category: "Meat and Seafood",
     },
     {
         id: 20,
         name: 'Shrimp',
         price: 20,
         image: Shrimp,
-        category: "Seafood",
+        category: "Meat and Seafood",
     },
     {
         id: 21,
@@ -184,7 +184,7 @@ const ProductList = [
         name: 'Tilapia',
         price: 20,
         image: Tilapia,
-        category: "Seafood",
+        category: "Meat and Seafood",
     },
     {
         id: 24,

@@ -1,17 +1,14 @@
 import Category from "../Category/Category"
-import Navbar from "../Navbar/Navbar"
 import Hero from "../Hero/Hero"
 import Values from "../Values/Values"
 import Products from "../Products/Products"
 import Discount from "../Discount/Discount"
 import Process from "../Process/Process"
 import Testimonials from "../Testimonials/Testimonials"
-import Footer from "../Footer/Footer"
 
 const Home = () => {
   return (
     <div>
-        <Navbar/>
         <Hero/>
         <Category />
         <Values/>
@@ -19,7 +16,6 @@ const Home = () => {
         <Discount/>
         <Process/>
         <Testimonials/>
-        <Footer/>
     </div>
   )
 }
