@@ -1,16 +1,71 @@
-# React + Vite
+## Grocery Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive Grocery E-Commerce Website built using React, focused on clean UI design, smooth user experience, and reusable component architecture.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-Product listing with categories (Fruits, Vegetables, Dairy, etc.)
 
-## React Compiler
+-Responsive and modern UI design
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+-Reusable React components
 
-## Expanding the ESLint configuration
+-Interactive product cards
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+-Clean navigation and layout
+
+-Scalable structure for future features (cart, checkout, auth)
+
+## Tech Stack
+
+-React
+
+-JavaScript (ES6+)
+
+-HTML5
+
+-CSS3 / Tailwind CSS
+
+## Screenshots
+![Grocery Website - Home](public/Screenshots/)
+![Grocery Website - Category](public/Screenshots/)
+![Grocery Website - Filtered Category()](public/Screenshots/)
+![Grocery Website - Filtered Category()](public/Screenshots/)
+
+## Project Overview
+
+This project demonstrates a real-world frontend e-commerce layout using React. It follows a component-based architecture to manage different sections like products, categories, banners, and navigation. The focus is on UI/UX, responsiveness, and clean code practices suitable for a production-ready grocery platform.
+
+## Installation & Setup
+
+-Clone the repository:
+
+git clone https://github.com/ayushasunuwar/My-Grocery.git
+
+
+-Navigate to the project directory:
+
+cd My-Grocery
+
+
+-Install dependencies:
+
+npm install
+
+
+-Run the development server:
+
+npm run dev
+
+
+## Future Enhancements
+
+-Add to cart functionality
+
+-User authentication
+
+-Checkout and payment integration
+
+-Backend integration
+
+-Search and filter system
