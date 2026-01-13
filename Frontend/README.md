@@ -27,10 +27,11 @@ A modern and responsive Grocery E-Commerce Website built using React, focused on
 -CSS3 / Tailwind CSS
 
 ## Screenshots
-![Grocery Website - Home](public/Screenshots/)
-![Grocery Website - Category](public/Screenshots/)
-![Grocery Website - Filtered Category()](public/Screenshots/)
-![Grocery Website - Filtered Category()](public/Screenshots/)
+![Grocery Website - Home](public/Screenshots/home.png)
+![Grocery Website - All Products](public/Screenshots/allProducts.png)
+![Grocery Website - Category(Fruits)](public/Screenshots/categoryFruits.png)
+![Grocery Website - Category(Vegetables)](public/Screenshots/categoryVegetables.png)
+![Grocery Website - Review](public/Screenshots/review.png)
 
 ## Project Overview
 
